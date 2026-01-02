@@ -6,7 +6,7 @@ public class TeleportBlink : MonoBehaviour
     public Vector2 teleportPosition;
     public int blinkCount = 3;
     public float blinkSpeed = 0.1f;
-    public float walkDelay = 1f;
+    public float walkDelay = 0.5f;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
